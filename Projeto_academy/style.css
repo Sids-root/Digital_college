@@ -1,17 +1,21 @@
 *{
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
+
 .container{
     border: 1px solid black;
     display: flex;
     width: 80%;
-    height: 90vh;
+    ;
 }
 .logo {
     display: flex;
     flex-wrap: wrap;
     border: 1px solid black;
-    width: 80%;
+    width: 100%;
     align-content: center;
     justify-content: center;
 }
@@ -27,9 +31,45 @@ img{
     align-content: flex-start;
     border: 1px solid black;
     width: 60%;
-    
 }
 h1{
     font-size:18px;
     
+}
+.formulario{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    
+}
+.campos{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 10px;
+}
+input{
+    border-radius: 24px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    
+}
+.mbu{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px 0;
+    
+}
+button{
+    width: 80%;
+    padding: 20px;
+    background-color: #BF0067;
+    color: white;
+    border: none;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: 600;
 }
